@@ -65,7 +65,7 @@ Create a folder name `srez` and copy the following py files and folders:
 
 Usage is as follows:
 
-1. Download 'img_align_celeba.zip' dataset 1.34GB from [celebA](https://www.dropbox.com/sh/8oqt9vytwxb3s4r/AADSNUu0bseoCKuxuI5ZeTl1a/Img?dl=0). Unziped on dataset folder. This step may take a while as it will extract 200K images.
+1. Download the [Large-scale CelebFaces](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) 1.34GB dataset file ['img_align_celeba.zip'](https://www.dropbox.com/sh/8oqt9vytwxb3s4r/AADSNUu0bseoCKuxuI5ZeTl1a/Img?dl=0). Unziped on dataset folder. This step may take a while as it will extract 200K images.
 
 2. Training with default settings: `py srez_main.py --run train`. The script will periodically output an example batch in PNG format onto the srez/train folder, and checkpoint data will be stored in the srez/checkpoint folder.
 
