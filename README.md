@@ -3,7 +3,7 @@
 
 Image super-resolution through deep learning. This project uses deep learning to upscale 16x16 images by a 4x factor.
 
-![training result](srez_sample_output2.png)
+![training result](/srez/srez_sample_output2.png)
 
 ## Dependencies:
 
