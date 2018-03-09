@@ -50,7 +50,7 @@ For GPU Nvidia, must install [CUDA v9.0](https://developer.nvidia.com/cuda-90-do
 
 ## Project
 
-Create a folder name `anpr` and copy the following py files and folders:
+Create a folder name `srez` and copy the following py files and folders:
 - `checkpoint\` (learning process)
 - `dataset\` (200K celebrity faces)
 - `train\` (output of learning process, _empty_)
