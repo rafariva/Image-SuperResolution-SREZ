@@ -67,12 +67,9 @@ Usage is as follows:
 
 1. Download 'img_align_celeba.zip' dataset 1.34GB from [celebA](https://www.dropbox.com/sh/8oqt9vytwxb3s4r/AADSNUu0bseoCKuxuI5ZeTl1a/Img?dl=0). Unziped on dataset folder. This step may take a while as it will extract 200K images.
 
-2. Training with default settings: 
-```py srez_main.py --run train```
-The script will periodically output an example batch in PNG format onto the srez/train folder, and checkpoint data will be stored in the srez/checkpoint folder.
+2. Training with default settings: `py srez_main.py --run train`. The script will periodically output an example batch in PNG format onto the srez/train folder, and checkpoint data will be stored in the srez/checkpoint folder.
 
-3. After the network has trained you can also produce an animation showing the evolution of the output by running: 
-```py srez_main.py --run demo```
+3. After the network has trained you can also produce an animation showing the evolution of the output by running: `py srez_main.py --run demo`
 
 _Note: In srez_main.py file, line 64, specify the training time (default: 1200 minutes). or any other values you want to change_
 
