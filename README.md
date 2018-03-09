@@ -12,6 +12,8 @@ Image super-resolution through deep learning. This project uses deep learning to
 - Pillow v5.+
 - OpenCV v3.14.+ (for cv2)
 - MatPlotLib v2.1.+
+- MoviePy (0.2.x)
+- ffmpeg
 - [TensorFlow v1.+](https://www.tensorflow.org/install/install_windows)
 
 ## Installations
