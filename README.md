@@ -13,7 +13,6 @@ Image super-resolution through deep learning. This project uses deep learning to
 - OpenCV v3.14.+ (for cv2)
 - MatPlotLib v2.1.+
 - MoviePy (0.2.x)
-- ffmpeg
 - [TensorFlow v1.+](https://www.tensorflow.org/install/install_windows)
 
 ## Installations
@@ -46,6 +45,12 @@ or
 ```
 #*GPU version*
 py -m pip install --upgrade tensorflow-gpu
+```
+7. Install Imageio library
+```
+py
+import imageio
+imageio.pluggins.ffmpeg.download()
 ```
 For GPU Nvidia, must install [CUDA v9.0](https://developer.nvidia.com/cuda-90-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exelocal) and [cuDNN v9.0](https://developer.nvidia.com/compute/machine-learning/cudnn/secure/v7.0.5/prod/9.0_20171129/cudnn-9.0-windows10-x64-v7) (for cuDNN follow [this steps](http://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html#install-windows))
 
